@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    height: 100px;
+}
+nav button{
+    width: 116px;
+    height: 52px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bolder;
+    background-color: white;
+}
+nav h1{
+    font-size: 40px;
+
+}
+header{
+    background-color: #C6E4D6;
+    height: 560px;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+.leftsection{
+ /* border: 1px solid red; */
+ width: 48%;
+}
+.rightsection{
+ /* border: 1px solid red; */
+ width: 48%;
+ height: 400px;
+}
+
+header div button{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 0;
+    margin-top: 10px;
+}
+.parent_div{
+    /* border: 1px solid red; */
+    max-width: 1280px;
+    margin: 30px auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+     
+}
+.child_div{
+    border: 1px solid gray;
+    height: 270px;
+    /* width: 302px; */
+    border-radius: 30px;
+    padding: 10px; 
+}
+.child_div img{
+    width: 62px;
+    height: 62px;
+    margin: 10px 10px 0px;
+}
+.child_div h2{
+    margin: 10px 0;
+}
